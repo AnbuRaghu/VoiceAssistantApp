@@ -36,6 +36,8 @@ export default function NewsCard({
     }
   }, [i, activeArticle, elRefs]);
   return (
+    
+   
     <Card
       ref={elRefs[i]}
       className={classNames(

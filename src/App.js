@@ -60,6 +60,7 @@ export default function App() {
           alt="alan logo"
         />
       </div>
+    
 
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
